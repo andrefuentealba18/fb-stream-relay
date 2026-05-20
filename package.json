@@ -1,0 +1,14 @@
+{
+    "name": "fb-stream-relay-server",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+          "start": "node server.js"
+    },
+    "dependencies": {
+          "ws": "^8.20.1",
+          "@ffmpeg-installer/ffmpeg": "^1.1.0"
+    }
+}
